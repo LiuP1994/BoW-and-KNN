@@ -1,0 +1,19 @@
+% ========================================================================
+% Image classification using Bag of Words
+% This is for masters computer vision course 
+% in Queen Mary Uni. of Londonin 2013
+% Lecuturers: Tao Xiang and Dr. Ioannis Patras (i.patras@eecs.qmul.ac.uk) 
+% The experiment is coordinated by TA: Heng Yang(heng.yang@eecs.qmul.ac.uk)
+%                      Jan.2013
+%=========================================================================
+File name            	  	 Discription 
+CalculateDictionary.m 	  	 function to build bag of words with Kmeans method 
+compute_descriptors.m 	 	 sift feature detection setting 
+GenerateSiftDescriptors.m        sift feature exaction 
+do_normalize.m                   histogram normalization 
+draw_cm.m                        visualize confusion matrix 
+EuclideanDistance.m              Euclidean Distance computing 
+knnsearch.m                      k-NN algorithm 
+num2string.m                     convert num to string
+rotateXLabels.m                  rotate the x labels 
+
